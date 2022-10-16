@@ -1,0 +1,50 @@
+.banner {
+  // background: url(../images/index_banner.jpg) no-repeat;
+  background-image: url(../images/index_banner.jpg);
+  background-repeat: no-repeat;
+  height: 480px;
+}
+
+.hot-show {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.live-recall {
+  .live-recall-bg {
+    background-image: url(../images/live-recall-bg.png);
+    background-repeat: no-repeat;
+  }
+}
+
+.guess-like {
+  .card {
+    width: 350px;
+  }
+
+  .guess-like-sm {
+    width: 255px;
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.banner-footer {
+  // background: url(../images/index_banner.jpg) no-repeat;
+  background-image: url(../images/banner-footer.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+
+  h2 {
+    line-height: 1.5;
+  }
+
+  .input-group {
+    width: 350px;
+  }
+}
