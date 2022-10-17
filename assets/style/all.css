@@ -17734,13 +17734,15 @@ img {
   width: 350px;
 }
 
-.guess-like .guess-like-sm {
-  width: 255px;
-}
-
 .guess-like img {
   width: 100%;
   height: 350px;
+}
+
+@media (min-width: 768px) {
+  .guess-like .guess-like-sm {
+    width: 255px;
+  }
 }
 
 .banner-footer {
