@@ -1,23 +1,14 @@
-// .layout_header {
-//     border: 1px solid #000;
+.banner-footer {
+    // background: url(../images/index_banner.jpg) no-repeat;
+    background-image: url(../images/banner-footer.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
 
-//     // h1 {
-//     //     border: 1px solid #000;
-//     //     text-align: center;
-//     // }
+    h2 {
+        line-height: 1.5;
+    }
 
-//     ul {
-//         // border: 1px solid #000;
-//         // text-align: center;
-//         display: inline;
-//         border: 1px solid #000;
-
-//         li {
-//             border: 1px solid #000;
-//         }
-//     }
-
-//     a {
-//         border: 1px solid #000;
-//     }
-// }
+    .input-group {
+        width: 350px;
+    }
+}
