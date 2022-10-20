@@ -18491,6 +18491,38 @@ img {
   }
 }
 
+.targetExhibition .card-img-top {
+  background-image: url(../images/hot_exhibition1.jpg);
+  background-repeat: no-repeat;
+  height: 256px;
+}
+
+.targetExhibition .ticketNum .Number {
+  font-size: 40px;
+}
+
+.targetExhibition .ticketType .Number {
+  font-size: 40px;
+}
+
+.targetExhibition .ticketType .active {
+  margin: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #E31277;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+@media (min-height: 768px) {
+  .targetExhibition .ticketNum {
+    height: 256px;
+  }
+  .targetExhibition .ticketType {
+    height: 256px;
+  }
+}
+
 .butTicketBanner img {
   width: 100%;
   height: 400px;
