@@ -31,3 +31,37 @@
         width: 350px;
     }
 }
+
+.offcanvas {
+    width: 540px;
+    top: 72px;
+
+    .card {
+        height: 172px;
+
+        img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .ticketCountCal {
+            height: 24px;
+
+            input {
+                width: 25px;
+            }
+        }
+    }
+}
+
+@media (min-height:768px) {
+    .offcanvas {
+        top: 102px;
+
+        .card {
+            .ticketCountCal {
+                width: 100px;
+            }
+        }
+    }
+}
