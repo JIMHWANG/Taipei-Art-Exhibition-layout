@@ -1,0 +1,19 @@
+.checkout {
+    img {
+        width: 160px;
+        height: 100%;
+    }
+
+    input {
+        width: 28px;
+    }
+}
+
+@media (max-width:768px) {
+    .checkout {
+        img {
+            width: 165px;
+            height: 84px;
+        }
+    }
+}
