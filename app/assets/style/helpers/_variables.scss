@@ -284,6 +284,13 @@ $spacers: (
   23: $spacer * 1.6875,
   24: $spacer * 1.875,
   25: $spacer * 0.375,
+  26: $spacer * 18.0625,
+  27: $spacer * 8.1875,
+  28: $spacer * 3.9375,
+  29: $spacer * 3.5,
+  30: $spacer * 4.75,
+  31: $spacer * 16.25,
+  32: $spacer * 3.875,
   ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
