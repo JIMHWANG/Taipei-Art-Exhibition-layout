@@ -1,5 +1,6 @@
 * {
     font-weight: inherit !important;
+    box-sizing: border-box;
     // white-space: nowrap;
 }
 
@@ -14,4 +15,8 @@ span {
 
 img {
     vertical-align: top;
+}
+
+ul {
+    margin: 0;
 }

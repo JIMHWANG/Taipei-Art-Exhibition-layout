@@ -17,7 +17,6 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $gray-light: #707070 !default;
-$black: #000 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -37,6 +36,7 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
+$black: #000 !default;
 $blue: #0d6efd !default;
 $indigo: #6610f2 !default;
 $purple: #630834 !default;
@@ -321,7 +321,7 @@ $body-text-align: null !default;
 // Style anchor elements.
 
 $link-color: $primary  !default;
-$link-decoration: underline !default;
+$link-decoration: none !default;
 $link-shade-percentage: 20% !default;
 $link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration: null !default;
