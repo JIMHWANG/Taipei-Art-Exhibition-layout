@@ -1,3 +1,13 @@
+header {
+    padding: 18px 85px 18px 0;
+}
+
+@media (max-width:768px) {
+    header {
+        padding-right: 26px;
+    }
+}
+
 .guess-like {
     .card {
         width: 350px;
