@@ -257,27 +257,27 @@ $spacers: (
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 1.75,
-  6: $spacer * 3,
-  7: $spacer * 4.5625,
-  8: $spacer * 1.75,
-  9: $spacer * 0.625,
-  10: $spacer * 1.25,
-  11: $spacer * 5,
-  12: $spacer * 3.125,
-  13: $spacer * 4.0625,
-  14: $spacer * 2.5,
-  15: $spacer * 3.75,
-  16: $spacer * 0.75,
-  17: $spacer * 2.375,
-  18: $spacer * 3.25,
-  19: $spacer * 2.25,
-  20: $spacer * 5.3125,
-  21: $spacer * 5.5,
-  22: $spacer * 2.75,
-  23: $spacer * 1.6875,
-  24: $spacer * 1.875,
+  4: $spacer * 1.25,
+  5: $spacer * 1.5,
+  6: $spacer * 1.75,
+  7: $spacer * 2,
+  8: $spacer * 2.25,
+  9: $spacer * 2.5,
+  10: $spacer * 2.75,
+  11: $spacer * 3,
+  12: $spacer * 3.25,
+  13: $spacer * 3.5,
+  14: $spacer * 3.75,
+  15: $spacer * 4,
+  16: $spacer * 4.25,
+  17: $spacer * 4.5,
+  18: $spacer * 4.75,
+  19: $spacer * 5,
+  20: $spacer * 5.25,
+  21: $spacer * 5,
+  22: $spacer * 5.75,
+  23: $spacer * 6,
+  24: $spacer * 6.25,
   25: $spacer * 0.375,
   26: $spacer * 18.0625,
   27: $spacer * 8.1875,
@@ -506,11 +506,11 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom: 0 !default;
+$headings-margin-bottom: 0.5rem !default;
 $headings-font-family: null !default;
 $headings-font-style: null !default;
 $headings-font-weight: 500 !default;
-$headings-line-height: 0 !default;
+$headings-line-height: 1.5 !default;
 $headings-color: null !default;
 // scss-docs-end headings-variables
 

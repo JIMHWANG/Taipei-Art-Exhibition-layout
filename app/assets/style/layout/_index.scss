@@ -1,8 +1,13 @@
-.banner {
+.index-header-banner {
   // background: url(../images/index_banner.jpg) no-repeat;
   background-image: url(../images/index_banner.jpg);
   background-repeat: no-repeat;
   height: 480px;
+
+  button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .hot-show {
