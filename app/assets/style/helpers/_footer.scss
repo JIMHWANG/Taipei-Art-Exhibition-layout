@@ -1,0 +1,31 @@
+.footer-banner {
+    // background: url(../images/index_banner.jpg) no-repeat;
+    background-image: url(../images/banner-footer.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-left: 85px;
+
+    .input-group {
+        width: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-banner {
+        padding-left: 15px;
+
+        p {
+            margin-bottom: 22px;
+        }
+    }
+}
+
+footer {
+    padding: 20px 85px;
+}
+
+@media (max-width:768px) {
+    footer {
+        padding: 16px;
+    }
+}
